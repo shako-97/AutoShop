@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoShop.Models", "AutoShop.Models\AutoShop.Models.csproj", "{7BFE81E1-FAE1-4B17-83DF-7D3E448E0FB4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{638D3CA6-CAF3-42BD-B92C-B60C9D306861} = {638D3CA6-CAF3-42BD-B92C-B60C9D306861}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoShop.Repositories", "AutoShop.Repositories\AutoShop.Repositories.csproj", "{2B6703AD-5510-4938-BC8E-8272D2AB1EE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{638D3CA6-CAF3-42BD-B92C-B60C9D306861} = {638D3CA6-CAF3-42BD-B92C-B60C9D306861}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Addons", "Addons", "{FB852E7F-CE59-4FD7-9360-6C4E3D351D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseHelper", "DatabaseHelper\DatabaseHelper.csproj", "{638D3CA6-CAF3-42BD-B92C-B60C9D306861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoShop.App", "AutoShop.App\AutoShop.App.csproj", "{B285BBB5-0879-4E3E-8CCA-7220592675BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BFE81E1-FAE1-4B17-83DF-7D3E448E0FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFE81E1-FAE1-4B17-83DF-7D3E448E0FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFE81E1-FAE1-4B17-83DF-7D3E448E0FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFE81E1-FAE1-4B17-83DF-7D3E448E0FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6703AD-5510-4938-BC8E-8272D2AB1EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6703AD-5510-4938-BC8E-8272D2AB1EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6703AD-5510-4938-BC8E-8272D2AB1EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6703AD-5510-4938-BC8E-8272D2AB1EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638D3CA6-CAF3-42BD-B92C-B60C9D306861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638D3CA6-CAF3-42BD-B92C-B60C9D306861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638D3CA6-CAF3-42BD-B92C-B60C9D306861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638D3CA6-CAF3-42BD-B92C-B60C9D306861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B285BBB5-0879-4E3E-8CCA-7220592675BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B285BBB5-0879-4E3E-8CCA-7220592675BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B285BBB5-0879-4E3E-8CCA-7220592675BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B285BBB5-0879-4E3E-8CCA-7220592675BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{638D3CA6-CAF3-42BD-B92C-B60C9D306861} = {FB852E7F-CE59-4FD7-9360-6C4E3D351D7D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27F87AE6-ADDE-4350-BDD8-24EA72C8BAEA}
+	EndGlobalSection
+EndGlobal
